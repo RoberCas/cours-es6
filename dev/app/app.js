@@ -1,3 +1,12 @@
+
+/**
+* @Author: Nicolas Fazio <webmaster-fazio>
+* @Date:   01-09-2016
+* @Email:  contact@nicolasfazio.ch
+* @Last modified by:   webmaster-fazio
+* @Last modified time: 02-09-2016
+*/
+
 class MyApp {
 
   constructor(){
@@ -20,13 +29,12 @@ class HomePage {
   }
 
   initUI(){
-<<<<<<< HEAD
+
     // remove all section before display UI
     if(document.getElementsByTagName("section")[0]){
       document.getElementsByTagName("section")[0].parentNode.removeChild(document.getElementsByTagName("section")[0])
     }
-=======
->>>>>>> upstream/step2
+
     // create page skeleton
     let pageSkeleton = `
       <section>
@@ -44,7 +52,6 @@ class HomePage {
     this.loadEventUI()
 
   }
-<<<<<<< HEAD
 
   loadEventUI(){
     let loginForm = document.getElementsByTagName("form")[0];
@@ -97,8 +104,24 @@ class UserPage {
       // add page skeleton in body
       this.appBody.insertAdjacentHTML( 'afterbegin', pageSkeleton )
     }
-=======
->>>>>>> upstream/step2
+
+  }
+
+  loadEventUI(){
+    let loginForm = document.getElementsByTagName("form")[0];
+    loginForm.addEventListener("submit",  event => this.onLogin(event), false)
+  }
+
+  onLogin(event){
+    event.preventDefault()
+    let formInput = document.forms[0].elements
+    for (let i = 0; i < formInput.length; i++) {
+      if(formInput[i].value){
+        console.log(formInput[i].value)
+      }
+    }
+  }
+
 }
 let myApp = new MyApp();
 myApp.start();
