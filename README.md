@@ -9,8 +9,10 @@
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-## Step 07 / Corr. sur step 8
+## Step 08 / Corr. sur step 9
 
 ### Todo
 
- 1. Créer un tâche pour build les fichiers JS Es6
+ 1. Copier le fichier index.html dans `dist/index.html` avec une tâche Gulp
+ 2. Modifier l'url du fichier `bundle.js` dans `index.html`
+ 3. Ouvrir l'application depuis le répértoire `dist`
