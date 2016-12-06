@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+/**
+* @Author: Nicolas Fazio <webmaster-fazio>
+* @Date:   01-09-2016
+* @Email:  contact@nicolasfazio.ch
+* @Last modified by:   webmaster-fazio
+* @Last modified time: 15-09-2016
+*/
+
+import { HomePage } from './pages/home/home';
+
+>>>>>>> upstream/step6
 class MyApp {
 
   constructor(){
@@ -11,6 +24,7 @@ class MyApp {
 
 }
 
+<<<<<<< HEAD
 class HomePage {
 
   constructor(appBody){
@@ -40,5 +54,7 @@ class HomePage {
   }
 
 }
+=======
+>>>>>>> upstream/step6
 let myApp = new MyApp();
 myApp.start();
