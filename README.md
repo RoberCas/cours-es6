@@ -9,21 +9,7 @@
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-## Step 0
-  1. Créer une architecture pour le developpement de ton application
-```
-   dev    
-   ├── app
-   │   ├── app.js
-   │
-   ├── src
-   │   ├── css
-   │   ├── img
-   │
-   ├── www
-       ├── index.html
-```
-  2. Créer le fichier `index.html` avec les balise html5 de base (emmet: html TAB)
-  Ajouter balise script pour importer le fichier qui suit:
-  3. Créer un fichier `app.js` avec une class `MyApp`.
-  Afficher un `Hello World` dans une balise h1 dans le body de la page `index.html`, mais EN JAVASCRIPT (utilisation de la class MyApp).
+## Step 2 / corr. sur step 3
+  1. Créer un formulaire avec un input de type email, un autre de type password et un bouton login dans class `HomePage`
+  2. ajouter un evenement sur le clic du bouton submit qui récupère les valeur de touts les champs dans une variable SANS changer de pager
+  3. afficher les variables du formulaire dans la console

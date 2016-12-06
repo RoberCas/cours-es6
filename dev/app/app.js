@@ -20,10 +20,13 @@ class HomePage {
   }
 
   initUI(){
+<<<<<<< HEAD
     // remove all section before display UI
     if(document.getElementsByTagName("section")[0]){
       document.getElementsByTagName("section")[0].parentNode.removeChild(document.getElementsByTagName("section")[0])
     }
+=======
+>>>>>>> upstream/step2
     // create page skeleton
     let pageSkeleton = `
       <section>
@@ -41,6 +44,7 @@ class HomePage {
     this.loadEventUI()
 
   }
+<<<<<<< HEAD
 
   loadEventUI(){
     let loginForm = document.getElementsByTagName("form")[0];
@@ -93,7 +97,8 @@ class UserPage {
       // add page skeleton in body
       this.appBody.insertAdjacentHTML( 'afterbegin', pageSkeleton )
     }
+=======
+>>>>>>> upstream/step2
 }
-
 let myApp = new MyApp();
 myApp.start();
