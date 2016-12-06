@@ -3,13 +3,24 @@
 @Date:   01-09-2016
 @Email:  contact@nicolasfazio.ch
 @Last modified by:   webmaster-fazio
+<<<<<<< HEAD
 @Last modified time: 02-09-2016
+=======
+@Last modified time: 15-09-2016
+>>>>>>> upstream/step5
 -->
 
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-## Step 2 / corr. sur step 3
-  1. Créer un formulaire avec un input de type email, un autre de type password et un bouton login dans class `HomePage`
-  2. ajouter un evenement sur le clic du bouton submit qui récupère les valeur de touts les champs dans une variable SANS changer de pager
-  3. afficher les variables du formulaire dans la console
+
+## Step 05 / Corr. sur step 6
+
+### Prérequis
+
+  - installer `nvm` et `node.js`
+  - installer `npm` avec `nvm` si `npm` n'est pas installer sur votre machine.
+    voir google: 1:install nvm / 2:install npm
+
+### Todo
+  1. Initialliser votre projet `$ npm init` et utiliser le nom: `<your-name>-es6-training`
