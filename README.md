@@ -9,10 +9,8 @@
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-## Step 06 / Corr. sur step 7
+## Step 07 / Corr. sur step 8
 
 ### Todo
- 1. Installer Gulp en global sur votre machine
- 2. Ajouter Gulp comme dépendence à votre projet
- 3. Ajouter également Babel + Babelify + Browserify + Vinyl-Transform + vinyl-source-stream
- 4. Créer fichier de config pour Gulp
+
+ 1. Créer un tâche pour build les fichiers JS Es6
