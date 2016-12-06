@@ -9,7 +9,6 @@
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-<<<<<<< HEAD
 ## Step 0
   1. Créer une architecture pour le developpement de ton application
 ```
@@ -28,9 +27,3 @@
   Ajouter balise script pour importer le fichier qui suit:
   3. Créer un fichier `app.js` avec une class `MyApp`.
   Afficher un `Hello World` dans une balise h1 dans le body de la page `index.html`, mais EN JAVASCRIPT (utilisation de la class MyApp).
-=======
-## Exo 02
-  1. Créer une class `HomePage` pour la page d'accueil de l'application.
-  2. Créer une fonction `initUI`  dans la class `HomePage` qui s'occupe de l'affichage du `Hello world!`
-  3. instentier la class `HomePage` depuis la function `start` de la class `MyApp`.
->>>>>>> 433b1062817c0594fbb5910caab6eb67334c3079
