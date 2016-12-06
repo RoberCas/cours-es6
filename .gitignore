@@ -1,1 +1,13 @@
 node_modules/
+<<<<<<< HEAD
+=======
+www/build/
+platforms/
+plugins/
+*.swp
+.DS_Store
+Thumbs.db
+
+config.ts
+dist
+>>>>>>> upstream/step7
