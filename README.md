@@ -9,11 +9,13 @@
 # COURS ECMA SCRIPT 6
   DEVELOPPEMENT &amp; PRODUCTION WORKFLOW
 
-## Step 04 / Corr. sur step 5
+## Step 05 / Corr. sur step 6
+
+### Prérequis
+
+  - installer `nvm` et `node.js`
+  - installer `npm` avec `nvm` si `npm` n'est pas installer sur votre machine.
+    voir google: 1:install nvm / 2:install npm
 
 ### Todo
-  1. créer un dossier pour chaques class et créer un fichier pour chaques class `pages/home/home.js` et `pages/user/user.js`
-  2. retirer les class `HomePage` et `UserPage` de `app.js` pour les mettres dans leur fichier respectif précedement créer.
-  3. Rendre exportable les class `HomePage` et `UserPage`
-  4. Importer les class `HomePage` et `UserPage` dans le fichier `app.js`.
-  5. Mettre à jour le class `Myapp` pour pouvoir utiliser les class  `HomePage` et `UserPage`
+  1. Initialliser votre projet `$ npm init` et utiliser le nom: `<your-name>-es6-training`
