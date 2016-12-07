@@ -36,7 +36,7 @@ gulp.task("build-js", function(){
 var removeHtmlComments  = require('gulp-remove-html-comments');
 
     gulp.task("copy-html", function(){
-        return gulp.src(['./dev/**/*.html'])
+        return gulp.src(['./dev/www/*.html'])
         .pipe(removeHtmlComments())
         .pipe(gulp.dest(config.desDir))
     });
