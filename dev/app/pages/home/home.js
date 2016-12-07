@@ -12,11 +12,7 @@ export class HomePage {
 
   constructor(appBody){
     this.appBody = appBody
-<<<<<<< HEAD
     this.pageTitle = 'Hello world! Hello Roberto';
-=======
-    this.pageTitle = 'Hello toto!';
->>>>>>> upstream/step10
     this.initUI();
   }
 
