@@ -3,7 +3,7 @@
 * @Date:   15-09-2016
 * @Email:  contact@nicolasfazio.ch
 * @Last modified by:   webmaster-fazio
-* @Last modified time: 15-09-2016
+* @Last modified time: 07-12-2016
 */
 
 import { UserPage } from '../../pages/user/user';
@@ -12,7 +12,11 @@ export class HomePage {
 
   constructor(appBody){
     this.appBody = appBody
+<<<<<<< HEAD
     this.pageTitle = 'Hello world! Hello Roberto';
+=======
+    this.pageTitle = 'Hello toto!';
+>>>>>>> upstream/step10
     this.initUI();
   }
 
