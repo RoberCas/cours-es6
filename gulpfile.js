@@ -36,18 +36,9 @@ gulp.task("build-js", function(){
     .pipe(gulp.dest(config.desDir + '/js'));
 });
 
-<<<<<<< HEAD
-var removeHtmlComments  = require('gulp-remove-html-comments');
 
-    gulp.task("copy-html", function(){
-        return gulp.src(['./dev/www/*.html'])
-        .pipe(removeHtmlComments())
-        .pipe(gulp.dest(config.desDir))
-    });
-=======
 gulp.task("copy-html", function(){
     return gulp.src(config.pages)
         .pipe(removeHtmlComments())
         .pipe(gulp.dest(config.desDir))
 });
->>>>>>> upstream/step9
