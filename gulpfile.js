@@ -14,9 +14,12 @@ var babelify = require('babelify');
 var browserify = require("browserify");
 var transform = require('vinyl-transform');
 var source = require('vinyl-source-stream');
+var removeHtmlComments  = require('gulp-remove-html-comments');
+
 
 // Config of project folders
 var config = {
+    pages     : ['dev/www/*.html'], 
     desDir:    './dist' /* répértoire de destination (prod) */
 }
 
@@ -33,6 +36,7 @@ gulp.task("build-js", function(){
     .pipe(gulp.dest(config.desDir + '/js'));
 });
 
+<<<<<<< HEAD
 var removeHtmlComments  = require('gulp-remove-html-comments');
 
     gulp.task("copy-html", function(){
@@ -40,3 +44,10 @@ var removeHtmlComments  = require('gulp-remove-html-comments');
         .pipe(removeHtmlComments())
         .pipe(gulp.dest(config.desDir))
     });
+=======
+gulp.task("copy-html", function(){
+    return gulp.src(config.pages)
+        .pipe(removeHtmlComments())
+        .pipe(gulp.dest(config.desDir))
+});
+>>>>>>> upstream/step9
