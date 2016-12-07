@@ -59,6 +59,7 @@ gulp.task("startServer",  function() {
       server: {
           baseDir: config.desDir
       },
+      
       notify: true
     });
 });

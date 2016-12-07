@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(appBody){
     this.appBody = appBody
-    this.pageTitle = 'Hello world! Hello Roberto';
+    this.pageTitle = 'Hello world! Hello migoooolanas Couldnt open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false) ';
     this.initUI();
   }
 

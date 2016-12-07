@@ -11,7 +11,7 @@ export class UserPage {
   constructor(appBody,formInput){
     this.appBody = appBody
     this.formData = formInput
-    this.pageTitle = "Hello";
+    this.pageTitle = "Hello migolanas";
     this.initUI();
   }
 
