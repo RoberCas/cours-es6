@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(appBody){
     this.appBody = appBody
-    this.pageTitle = 'Hello world!';
+    this.pageTitle = 'Hello world! Hello Roberto';
     this.initUI();
   }
 
