@@ -1,5 +1,4 @@
 
-dist
 node_modules/
 www/build/
 platforms/
@@ -7,7 +6,6 @@ plugins/
 *.swp
 .DS_Store
 Thumbs.db
-dist
 
 config.ts
-dist
+dist/
