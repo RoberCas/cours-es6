@@ -32,3 +32,11 @@ gulp.task("build-js", function(){
     .pipe(source("bundle.js"))
     .pipe(gulp.dest(config.desDir + '/js'));
 });
+
+var removeHtmlComments  = require('gulp-remove-html-comments');
+
+    gulp.task("copy-html", function(){
+        return gulp.src(['./dev/**/*.html'])
+        .pipe(removeHtmlComments())
+        .pipe(gulp.dest(config.desDir))
+    });
