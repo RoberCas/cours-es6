@@ -6,13 +6,13 @@
 * @Last modified time: 08-12-2016
 */
 
-import  { API_KEY_CONFIG } from '../../providers/unsplash/apiKey-config';
+import  { APIKEYUNSPLASH } from '../../providers/unsplash/apikey-config';
 
 export class UnsplashService{
 
   constructor(){
     this.data = [];
-    this.params = API_KEY_CONFIG
+    this.params = APIKEYUNSPLASH
     this.queryUrl = 'https://api.unsplash.com/photos/random?count=1&client_id='
     console.log('hello UnsplashService!')
   }
