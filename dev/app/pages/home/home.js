@@ -3,7 +3,7 @@
 * @Date:   15-09-2016
 * @Email:  contact@nicolasfazio.ch
 * @Last modified by:   webmaster-fazio
-* @Last modified time: 07-12-2016
+* @Last modified time: 08-12-2016
 */
 
 import { UserPage } from '../../pages/user/user';
@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(appBody){
     this.appBody = appBody
-    this.pageTitle = 'Hello world! Hello migoooolanas Couldnt open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false) ';
+    this.pageTitle = 'Welcome';
     this.initUI();
   }
 
